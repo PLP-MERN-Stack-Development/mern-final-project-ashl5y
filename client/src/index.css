@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-blue: #5c95e0;
+  --dark-green: #1d3309;
+  --lime-green: #a7bd40;
+  --light-green: #c7da91;
+  --olive-green: #6a804f;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  @apply bg-gray-50 text-gray-900;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md font-medium transition duration-200;
+}
+
+.btn-primary {
+  @apply bg-[#5c95e0] text-white hover:bg-[#4a84cf] focus:ring-2 focus:ring-[#5c95e0] focus:ring-opacity-50;
+}
+
+.btn-secondary {
+  @apply bg-[#a7bd40] text-white hover:bg-[#96ac30] focus:ring-2 focus:ring-[#a7bd40] focus:ring-opacity-50;
+}
+
+.btn-dark {
+  @apply bg-[#1d3309] text-white hover:bg-[#2a4a12] focus:ring-2 focus:ring-[#1d3309] focus:ring-opacity-50;
+}
+
+.btn-outline {
+  @apply border border-[#5c95e0] text-[#5c95e0] hover:bg-[#5c95e0] hover:text-white focus:ring-2 focus:ring-[#5c95e0] focus:ring-opacity-50;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg;
+}
+
+.input {
+  @apply w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#5c95e0];
+}
+
+.loading-spinner {
+  @apply w-8 h-8 border-4 border-[#5c95e0] border-t-transparent rounded-full animate-spin mx-auto my-4;
+}
+
+.section-title {
+  @apply text-2xl font-bold text-[#1d3309] mb-4;
+}
