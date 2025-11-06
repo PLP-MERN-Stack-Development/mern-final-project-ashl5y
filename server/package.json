@@ -1,11 +1,12 @@
 {
   "name": "rahisi-ecommerce-server",
   "version": "1.0.0",
-  "description": "Backend for RRahisi E-commerce Platform",
+  "description": "Backend for Rahisi E-commerce Platform",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
+    "build": "cd ../client && npm install && npm run build",
     "test": "jest --detectOpenHandles",
     "test:watch": "jest --watch"
   },
