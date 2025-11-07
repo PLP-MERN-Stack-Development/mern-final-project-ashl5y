@@ -74,5 +74,5 @@ Auto-deployment
 ## Live Demo
 
 - **Frontend**: [https://rahisi-client.netlify.app](https://rahisi-client.netlify.app)  
-- **Backend API**: [https://rahisi-api.onrender.com/api/products](https://rahisi-api.onrender.com/api/products)  
-- **Demo Video**: [Watch on YouTube](https://youtu.be/demo-link-here)
+- **Backend API**: [https://mern-final-project-ashl5y.onrender.com/](https://mern-final-project-ashl5y.onrender.com/)
+- **Demo Video**: [Rahisi Ecommerce live demo](https://drive.google.com/file/d/1K8fidR7Jkfd6aDS46JmpT3xg2OPiwcPF/view?usp=sharing)
